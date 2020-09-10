@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HeaderModule } from './shared/header/header.module';
 import { FooterModule } from './shared/footer/footer.module';
+import { HeroCardModule } from './hero-card/hero-card.module';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { FooterModule } from './shared/footer/footer.module';
   ],
   exports: [
     HeaderModule,
-    FooterModule
+    FooterModule,
+    HeroCardModule
   ]
 })
 export class ComponentsModule { }

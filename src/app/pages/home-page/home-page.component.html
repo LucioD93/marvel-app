@@ -1,7 +1,14 @@
-<h3>
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, laborum doloremque officia temporibus illum qui, dolor optio voluptate error non amet omnis perspiciatis molestias impedit quisquam quasi aperiam, enim eveniet!
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, maxime! Amet cumque corrupti temporibus debitis, alias, illo eos laudantium distinctio sequi adipisci dignissimos! A soluta optio ipsum, vero commodi quo!
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil in deserunt porro maiores, magnam fugiat unde provident dolor dicta libero rem corrupti facere at tenetur obcaecati harum. Labore, libero!
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sunt ipsa ullam temporibus. Deleniti tempora ullam provident sequi perferendis voluptatibus harum, nihil ad eligendi magni. Eius commodi provident impedit placeat.
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, distinctio natus molestias, quisquam esse pariatur rerum temporibus iure explicabo voluptas doloribus! Ab odit eveniet eaque vel vero ullam? Quam, necessitatibus?
-</h3>
+<mat-grid-list
+  cols="3"
+  rowHeight="fit"
+  [style.height]="'100px'"
+  [style.margin-top]="'10px'"
+  [gutterSize]="'1px'"
+>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <app-hero-card></app-hero-card>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <app-hero-card></app-hero-card>
+  </mat-grid-tile>
+</mat-grid-list>

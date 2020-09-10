@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header.component';
 import { HttpClientModule } from '@angular/common/http';
 
-// Angular Material modules
+// Angular Material Modules
 import {
   MatToolbarModule,
   MatIconModule
