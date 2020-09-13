@@ -5,6 +5,7 @@ import { FooterComponent } from './footer.component';
 // Angular Material Modules
 import {
   MatToolbarModule,
+  MatIconModule
 } from '@angular/material';
 
 
@@ -13,6 +14,7 @@ import {
   imports: [
     CommonModule,
     MatToolbarModule,
+    MatIconModule
   ],
   exports: [FooterComponent]
 })
